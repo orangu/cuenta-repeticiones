@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cuenta coincidencias de palabras o letras</title>
+	</head>
+	<body>
+		<h1>Cuenta las veces que se repiten letras o palabras.</h1>
+		<fieldset>
+			<legend>¿Que deseas contar?</legend>
+			<div>
+				<input type="radio" id="letras" name="contar" value="letras" checked />
+				<label for="letras">letras</label>
+			</div>
+
+			<div>
+				<input type="radio" id="palabras" name="contar" value="palabras" />
+				<label for="palabras">palabras</label>
+			</div>
+		</fieldset>
+
+		<button id="boton_contar">Contar</button>
+		<pre>
+      <div id="resultado"></div>
+    </pre>
+		<script src="app.js"></script>
+	</body>
+</html>
